@@ -11,7 +11,7 @@ function Submit()
 
     }
 
-    console.log(StudentArray)
+    console.log(StudentArray);
 
     var lengthOfNameOfStudentsArray = StudentsArray.length;
     console.log(lengthOfNameOfStudentsArray);
