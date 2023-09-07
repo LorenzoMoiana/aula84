@@ -1,12 +1,14 @@
 
 
-#submitbutton{
-    margin-top: 20px;
-    margin-bottom: 20px;
+#submitButton
+{
+	margin-top: 20px; 
+	margin-bottom: 20px; 
 }
-input{
-    margin: 10px;
-    margin-top: 10px;
+
+input
+{
+	margin: 10px;
 }
 #displayNameWithCommas
 {
@@ -24,4 +26,10 @@ input{
     background-color: lightcoral;
 	border-radius: 10px;
     width: 50%;
+}
+#sortButton
+{
+	display: none;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
 }
