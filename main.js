@@ -1,7 +1,7 @@
 StudentArray = [];
 function Submit()
 
-
+{
     var displayStudentArray = [];
     for (var j = 1; j <= 4; j++)
     {
@@ -34,7 +34,7 @@ function sorting()
 {
     StudentArray.sort();
     console.log(StudentArray);
-
+}
     var displayStudentArraySorting = [];
 
     var lenghtOfNameOfStudentArray = StudentArray.lenght;
