@@ -29,7 +29,7 @@ document.getElementById("displayNameWithCommas").innerHTML = displayStudentArray
 var removeCommas = displayStudentArray.join(" ");
 console.log(removeCommas);
 document.getElementById("submitButton").style.display = "none";
-
+document.getElementById(sortButton).style.display = "[eline.block]";
 function sorting()
 {
     StudentArray.sort();
@@ -42,7 +42,7 @@ function sorting()
 
     for (var k = 0; k < lenghtOfNameOfStudentArray; k++)
     {
-        displayStudentArraySorting.push("<h4>NOME - " + StudentAray[k] + "</h4>")
+        displayStudentArraySorting.push("<h4>NOME - " + StudentArray[k] + "</h4>")
         ;
         console.log(displayStudentArraySorting);
 
